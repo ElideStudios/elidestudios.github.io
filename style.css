@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --text: #ffffff;
+    --primary: #222222;
+    --secondary: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    font-family: Poppins, sans-serif;
+    color: var(--text);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), var(--primary)), url("assets//background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    margin-left: 10rem;
+}
+
+.header-content h1 {
+    font-size: 6rem;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+}
+
+
+#mission {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
+
+.mission-content {
+    margin-left: 10rem;
+}
+
+.mission-content h2 {
+    font-size: 3rem;
+    margin-bottom: 2vh;
+}
+
+.mission-content p {
+    font-size: 1.2rem;
+}
+
+#management {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.management-content h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.management-list {
+    margin-top: 2rem;
+}
+
+.management-list li {
+    display: inline-block;
+    text-align: center;
+}
+
+.management-list img {
+    border-radius: 50%;
+    border: 0.5rem solid var(--secondary);
+}
+
+.management-list li:not(:last-child) {
+    margin-right: 5vw;
+}
